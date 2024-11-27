@@ -5,7 +5,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $company = htmlspecialchars($_POST['company']);
     $message = htmlspecialchars($_POST['message']);
     
-    $to = "your-email@example.com"; // Replace with your email
+    $to = "vinoth@varphi.in"; // Replace with your email
     $subject = "Demo Request from $name";
     $body = "Name: $name\nEmail: $email\nCompany: $company\nMessage:\n$message";
     $headers = "From: $email";
